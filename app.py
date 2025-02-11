@@ -1,8 +1,8 @@
-# User input
-name = input("What is your name? ")
-colour = input("What is your fav colour ? ")
-print(name + " likes " + colour)
-# String concatination
+# User input lines 2 - 4 are commented out
+#name = input("What is your name? ")
+#colour = input("What is your fav colour ? ")
+#print(name + " likes " + colour)
+# String concatenation
 firstName = 'John'
 lastName = 'Smith'
 message = f'{firstName} [{lastName}] is a coder'
@@ -63,5 +63,11 @@ if temperature > 30:
     print("It's a hot day")
 
 # test here
+# while loops
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
+print("Done")
 
 
