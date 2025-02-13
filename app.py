@@ -70,4 +70,40 @@ while i <= 5:
     i = i + 1
 print("Done")
 
+# for loops
+for item in "Python":
+    print(item)
+
+# lists are defined using square brackets. Loop through list
+for name in ["Brandon", "Nicola", "Ecko"]:
+    print(name)
+
+# nested loop
+for x in range(4):
+    for y in range(3):
+        print(f'{x}, {y}')
+
+
+# lists
+names = ["John", "Bob", "Mosh", "Sarah", "Mary"] # -1 returns last item, -2 second last item
+
+# access via indexes like all other lanuages
+# returns all items from index 2 till end
+print(name[2:])
+
+# returns elements from start index till the end index EXCLUDING that index element
+print(names[2:4]) # Mosh, Sarah
+
+# returns elements start from 0 if no starting index is specified
+
+# matrices
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# list methods
+
+
 
